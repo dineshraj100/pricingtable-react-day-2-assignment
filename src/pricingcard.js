@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Pricingcard(props) {
-    console.log(props.data);
   return (
     <div className="col-lg-4">
     <div className="card mb-5 mb-lg-0">

@@ -66,7 +66,7 @@ function App() {
     <section className="pricing py-5">
   <div className="container">
     <div className="row">
-      {data.map((e)=> <Pricingcard data={e} />)}
+      {data.map((e,index)=> <Pricingcard data={e} key={index} />)}
     </div>
   </div>
 </section>
